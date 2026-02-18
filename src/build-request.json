@@ -1,0 +1,52 @@
+{
+  "kind": "build_request",
+  "title": "Replace logo with uploaded version and enforce solid background",
+  "projectName": "Indomills",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-22",
+      "text": "Replace the site logo displayed in the Header and Footer (currently loaded from /assets/generated/indomills-logo.dim_512x256.png) with the newly uploaded logo image (1000066378-removebg-preview.png), ensuring it renders very sharp/clear and has a clean single-color background (no transparency/edge artifacts). Keep all other website content, layout, colors, routes, navigation links, and Call/WhatsApp CTAs unchanged.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-3"
+        ],
+        "quotes": [
+          "Is logo ko hi place kro ek Dum saaf clear single background colour"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Header logo and Footer logo both display the updated logo using the existing path /assets/generated/indomills-logo.dim_512x256.png (no code-path changes needed).",
+        "The exported logo has a uniform single-color background (no transparency checkerboard, fringing, or rough edges).",
+        "The logo appears crisp (not blurry) on mobile and desktop at the current rendered sizes (Header h-9/h-11; Footer h-12).",
+        "No other UI sections, navigation, routes, CTAs, or copy are modified."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify backend code or add backend endpoints; logo must be served as a static frontend asset.",
+    "Do not change the logo src paths used in frontend/src/components/layout/Header.tsx and frontend/src/components/layout/Footer.tsx (keep /assets/generated/indomills-logo.dim_512x256.png).",
+    "Keep existing header/footer styling and all existing site content/CTAs unchanged; only update the logo asset output."
+  ],
+  "nonGoals": [
+    "Creating new pages, changing SEO metadata, or adjusting site-wide theme colors.",
+    "Redesigning the header/footer layout or changing navigation/CTA behavior."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": [
+      "Create a crisp logo export with a clean single-color background and proper padding (1000066378-removebg-preview.png > indomills-logo.dim_512x256.png)"
+    ]
+  },
+  "userProfileUpdate": {
+    "goalsToAdd": [],
+    "goalsToRemove": [],
+    "preferencesToAdd": [],
+    "preferencesToRemove": [],
+    "miscToAdd": [],
+    "miscToRemove": [],
+    "fieldsToSet": {},
+    "fieldsToDelete": []
+  }
+}

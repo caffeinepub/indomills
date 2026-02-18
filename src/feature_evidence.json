@@ -1,0 +1,21 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-replace-the-site-logo-displayed-in-the-header-and-footer-currently-loaded-from-assets-generated-indomills-logo-dim-512x256-png-with-the-newly-uploaded-logo-image-1000066378-removebg-preview-png-ensuring-it-renders-very-sharp-clear-and-has-a-clean-single-color-background-no-transparency-edge-artifacts-keep-all-other-website-content-layout-colors-routes-navigation-links-and-call-whatsapp-ctas-unchanged",
+      "featureTitle": "Replace the site logo displayed in the Header and Footer (currently loaded from /assets/generated/indomills-logo.dim_512x256.png) with the newly uploaded logo image (1000066378-removebg-preview.png), ensuring it renders very sharp/clear and has a clean single-color background (no transparency/edge artifacts). Keep all other website content, layout, colors, routes, navigation links, and Call/WhatsApp CTAs unchanged.",
+      "files": [],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-22"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

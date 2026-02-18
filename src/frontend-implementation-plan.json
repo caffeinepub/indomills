@@ -1,0 +1,24 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Replace Indomills logo asset with uploaded version (solid background, crisp)",
+  "requirements": [
+    {
+      "id": "REQ-22",
+      "summary": "Update the existing generated logo asset so Header and Footer render the newly uploaded Indomills logo with a clean single-color background and crisp edges, without changing any code paths or UI.",
+      "acceptanceCriteria": [
+        "Header logo and Footer logo both display the updated logo using the existing path /assets/generated/indomills-logo.dim_512x256.png (no code-path changes needed).",
+        "The exported logo has a uniform single-color background (no transparency checkerboard, fringing, or rough edges).",
+        "The logo appears crisp (not blurry) on mobile and desktop at the current rendered sizes (Header h-9/h-11; Footer h-12).",
+        "No other UI sections, navigation, routes, CTAs, or copy are modified."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/public/assets/generated/indomills-logo.dim_512x256.png",
+          "operation": "modify",
+          "description": "Replace the current logo file with a freshly exported 512x256 image derived from 1000066378-removebg-preview.png, ensuring a uniform single-color (non-transparent) background, clean anti-aliased edges/no fringing, and appropriate padding so it stays sharp at the current Header/Footer rendered sizes; keep the filename and location exactly the same to preserve the existing /assets/generated/indomills-logo.dim_512x256.png src path usage."
+        }
+      ]
+    }
+  ]
+}

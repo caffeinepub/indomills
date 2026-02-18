@@ -1,0 +1,278 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 15,
+  "summary": "Build a professional, fast-loading, mobile-friendly B2B website for Indomills (Indomil), a bulk food and fresh vegetable supplier in Bihar, featuring key marketing pages, product categories, strong Call/WhatsApp CTAs, contact/inquiry flow, and SEO optimization.",
+  "architectural_notes": [
+    "Use a clean, modern green-and-white theme with simple typography and easy navigation.",
+    "Prioritize fast load performance and mobile-first responsive layout.",
+    "Include persistent Call and WhatsApp CTAs plus prominent phone display.",
+    "Structure content for B2B institutional buyers in Bihar, with expansion messaging.",
+    "Use the provided logo consistently in the site header and footer.",
+    "Improve the Home page visual design by adding a grocery godown/warehouse-style hero/supporting image and additional relevant imagery to make the homepage look more premium.",
+    "Header and footer should match the logo’s color combination and use the same yellow background specified by the user.",
+    "Ensure the provided logo renders crisp (not blurry) in header/footer on both mobile and desktop; avoid scaling artifacts and layout shift.",
+    "Logo should be placed with a clean single, solid background color and appear sharp/clear (no transparency/edge artifacts)."
+  ],
+  "known_issues": [
+    "Logo currently appears not clear/blurry on the website; user requested fixing logo clarity while keeping everything else the same.",
+    "Logo needs to be placed with a clean single-color background (current background/edges may look inconsistent)."
+  ],
+  "isFixRequest": true,
+  "imageRequirements": "## Edit Images\n- Create a crisp logo export with a clean single-color background and proper padding (1000066378-removebg-preview.png > indomills-logo.dim_512x256.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-fast-loading-mobile-friendly-multi-page-b2b-marketing-website-for-the-company-indomills-with-these-pages-and-seo-friendly-routes-home-about-us-about-products-categories-products-who-we-serve-who-we-serve-how-it-works-how-it-works-why-choose-us-why-choose-us-contact-us-contact-each-page-must-use-the-provided-business-content-and-maintain-consistent-navigation-and-layout-across-the-site",
+      "title": "Create a fast-loading, mobile-friendly, multi-page B2B marketing website for the company “indomills” with these pages and SEO-friendly routes: Home (/), About Us (/about), Products & Categories (/products), Who We Serve (/who-we-serve), How It Works (/how-it-works), Why Choose Us (/why-choose-us), Contact Us (/contact). Each page must use the provided business content and maintain consistent navigation and layout across the site.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-prominent-contact-ctas-across-the-site-display-the-phone-number-8210088306-prominently-especially-on-home-and-in-the-site-header-footer-provide-a-call-now-button-using-a-tel-link-and-a-whatsapp-button-that-opens-a-whatsapp-chat-to-the-business-number-with-a-prefilled-message",
+      "title": "Implement prominent contact CTAs across the site: display the phone number 8210088306 prominently (especially on Home and in the site header/footer), provide a “Call Now” button using a tel: link, and a “WhatsApp” button that opens a WhatsApp chat to the business number with a prefilled message.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-home-page-content-and-sections-to-include-the-exact-headline-bulk-food-vegetable-supply-for-hotels-restaurants-cafes-schools-grocery-stores-highlights-for-fresh-vegetables-sourced-directly-from-farmers-consistent-quality-bulk-pricing-timely-delivery-service-availability-across-bihar-with-expansion-plans-trust-badges-direct-from-farmers-quality-assured-trusted-by-hotels-schools-and-product-image-sections",
+      "title": "Build the Home page content and sections to include: the exact headline “Bulk Food & Vegetable Supply for Hotels, Restaurants, Cafes, Schools & Grocery Stores”; highlights for fresh vegetables sourced directly from farmers; consistent quality, bulk pricing, timely delivery; service availability across Bihar with expansion plans; trust badges (“Direct from Farmers”, “Quality Assured”, “Trusted by Hotels & Schools”); and product image sections.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-the-products-categories-page-with-clear-categories-fresh-vegetables-farmer-direct-fruits-rice-atta-flour-edible-oils-ghee-pulses-grains-spices-masala-sauces-condiments-other-bulk-food-grocery-items-display-each-category-with-an-icon-and-short-b2b-focused-description-and-include-suitability-messaging-for-grocery-stores-mini-marts-retailer-shops-grocery-marts-hotels-restaurants-cafes-schools-hostels-and-institutions",
+      "title": "Create the Products & Categories page with clear categories: Fresh Vegetables (Farmer Direct), Fruits, Rice, Atta & Flour, Edible Oils & Ghee, Pulses & Grains, Spices & Masala, Sauces & Condiments, Other Bulk Food & Grocery Items. Display each category with an icon and short B2B-focused description, and include suitability messaging for grocery stores, mini marts, retailer shops, grocery marts, hotels, restaurants, cafes, schools, hostels, and institutions.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-the-who-we-serve-page-listing-hotels-restaurants-cafes-schools-hostels-hospitals-canteens-messes-catering-services-grocery-stores-retail-shops-mini-marts-grocery-marts-present-as-a-clean-grid-list-with-concise-supporting-copy-focused-on-b2b-supply",
+      "title": "Create the “Who We Serve” page listing: Hotels, Restaurants, Cafes, Schools, Hostels, Hospitals, Canteens & Messes, Catering Services, Grocery Stores, Retail Shops, Mini Marts, Grocery Marts. Present as a clean grid/list with concise supporting copy focused on B2B supply.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-the-how-it-works-page-showing-the-4-step-flow-farmers-manufacturers-quality-check-efficient-logistics-direct-delivery-to-institutions-and-businesses-present-as-a-stepper-timeline-style-section-with-clear-headings-and-brief-descriptions-per-step",
+      "title": "Create the “How It Works” page showing the 4-step flow: Farmers & Manufacturers, Quality Check, Efficient Logistics, Direct Delivery to Institutions and Businesses. Present as a stepper/timeline style section with clear headings and brief descriptions per step.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-the-why-choose-us-page-including-competitive-bulk-pricing-fresh-and-quality-products-reliable-supply-chain-single-vendor-sourcing-for-all-food-needs-professional-service-local-farmer-support-present-with-bullet-points-and-supporting-copy-emphasizing-reliability-freshness-and-b2b-efficiency",
+      "title": "Create the “Why Choose Us” page including: competitive bulk pricing, fresh and quality products, reliable supply chain, single-vendor sourcing for all food needs, professional service, local farmer support. Present with bullet points and supporting copy emphasizing reliability, freshness, and B2B efficiency.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-the-about-us-page-explaining-indomil-indomills-as-a-supply-network-connecting-farmers-and-manufacturers-directly-with-businesses-and-institutions-focusing-on-cost-reduction-freshness-uninterrupted-supply-support-for-local-farmers-ethical-sourcing-and-a-vision-to-become-a-trusted-b2b-food-supply-brand",
+      "title": "Create the About Us page explaining Indomil/indomills as a supply network connecting farmers and manufacturers directly with businesses and institutions, focusing on cost reduction, freshness, uninterrupted supply, support for local farmers, ethical sourcing, and a vision to become a trusted B2B food supply brand.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-the-contact-us-page-including-phone-number-8210088306-email-indomillsfood-gmail-com-whatsapp-enquiry-option-service-area-message-bihar-expansion-planned-and-a-simple-enquiry-form-with-fields-name-business-type-product-requirement-quantity-contact-details-on-submit-validate-required-fields-and-provide-a-clear-success-state-include-an-option-to-open-whatsapp-with-the-form-details-prefilled",
+      "title": "Create the Contact Us page including: phone number 8210088306, email indomillsfood@gmail.com, WhatsApp enquiry option, service area message “Bihar (expansion planned)”, and a simple enquiry form with fields Name, Business Type, Product Requirement, Quantity, Contact Details. On submit, validate required fields and provide a clear success state; include an option to open WhatsApp with the form details prefilled.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-consistent-site-wide-layout-clean-modern-green-and-white-theme-simple-fonts-easy-navigation-strong-cta-buttons-call-whatsapp-and-a-professional-b2b-marketing-layout-include-a-footer-containing-phone-number-email-indomillsfood-gmail-com-service-areas-bihar-expansion-planned-and-social-media-links-placeholders",
+      "title": "Implement a consistent site-wide layout: clean modern green-and-white theme, simple fonts, easy navigation, strong CTA buttons (Call & WhatsApp), and a professional B2B marketing layout. Include a footer containing phone number, email (indomillsfood@gmail.com), service areas (Bihar; expansion planned), and social media links placeholders.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-seo-foundations-seo-friendly-urls-matching-the-routes-per-page-meta-titles-and-meta-descriptions-aligned-to-the-provided-keyword-set-and-basic-indexing-support-robots-txt-and-sitemap-xml-ensure-the-site-is-suitable-for-google-business-profile-by-having-consistent-nap-name-address-service-area-phone-messaging-where-appropriate-phone-service-area-email-as-provided",
+      "title": "Add SEO foundations: SEO-friendly URLs (matching the routes), per-page meta titles and meta descriptions aligned to the provided keyword set, and basic indexing support (robots.txt and sitemap.xml). Ensure the site is suitable for Google Business Profile by having consistent NAP (name/address/service area/phone) messaging where appropriate (phone/service area/email as provided).",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-meet-performance-and-responsiveness-goals-ensure-the-site-is-fully-mobile-responsive-images-are-optimized-for-fast-loading-and-any-below-the-fold-images-sections-are-loaded-efficiently-e-g-lazy-loading-while-preserving-good-visual-quality",
+      "title": "Meet performance and responsiveness goals: ensure the site is fully mobile-responsive, images are optimized for fast loading, and any below-the-fold images/sections are loaded efficiently (e.g., lazy loading) while preserving good visual quality.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-trust-badges-category-icons-product-imagery-asset-pipeline-using-static-assets-served-from-the-frontend-no-backend-image-routing-generate-and-include-custom-images-as-listed-in-image-requirements-and-render-them-in-the-ui-in-appropriate-sections-hero-category-cards-trust-badges",
+      "title": "Add a “Trust badges + category icons + product imagery” asset pipeline using static assets served from the frontend (no backend image routing). Generate and include custom images as listed in Image Requirements and render them in the UI in appropriate sections (hero, category cards, trust badges).",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-site-logo-used-in-the-header-and-footer-with-the-user-uploaded-logo-by-converting-it-into-the-existing-generated-asset-filename-used-by-the-app-and-ensure-it-renders-crisply-on-mobile-and-desktop",
+      "title": "Replace the site logo used in the Header and Footer with the user-uploaded logo by converting it into the existing generated asset filename used by the app, and ensure it renders crisply on mobile and desktop.",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-improve-the-home-page-visuals-by-adding-a-high-quality-grocery-warehouse-godown-style-image-and-additional-supporting-grocery-bulk-supply-imagery-to-make-the-home-page-look-more-polished-and-visually-rich-while-keeping-the-existing-b2b-messaging-and-ctas-intact",
+      "title": "Improve the Home page visuals by adding a high-quality grocery warehouse/godown-style image and additional supporting grocery/bulk-supply imagery to make the Home page look more polished and visually rich, while keeping the existing B2B messaging and CTAs intact.",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-convert-the-newly-uploaded-logo-image-1000066383-removebg-preview-1-png-into-the-existing-site-logo-asset-filename-and-ensure-the-updated-logo-renders-crisply-in-both-the-header-and-footer-without-layout-shift",
+      "title": "Convert the newly uploaded logo image (1000066383-removebg-preview-1.png) into the existing site logo asset filename and ensure the updated logo renders crisply in both the Header and Footer without layout shift.",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-improve-the-mobile-hamburger-drawer-navigation-sheet-styling-and-usability-to-give-it-a-more-polished-look-while-keeping-the-existing-routes-and-ctas-unchanged",
+      "title": "Improve the mobile hamburger/drawer navigation (Sheet) styling and usability to give it a more polished look while keeping the existing routes and CTAs unchanged.",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-convert-the-newly-uploaded-logo-image-1000066383-removebg-preview-2-png-into-the-existing-site-logo-asset-filename-used-by-the-app-indomills-logo-dim-512x256-png-so-the-header-and-footer-automatically-display-the-new-logo-without-any-code-path-changes",
+      "title": "Convert the newly uploaded logo image (1000066383-removebg-preview-2.png) into the existing site logo asset filename used by the app (indomills-logo.dim_512x256.png) so the header and footer automatically display the new logo without any code path changes.",
+      "reqIds": [
+        "REQ-18"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-header-and-footer-styling-so-their-color-combination-matches-the-uploaded-logo-branding-including-using-a-yellow-background-consistent-with-the-logo-s-yellow-background-while-preserving-existing-navigation-links-and-call-whatsapp-ctas",
+      "title": "Update the Header and Footer styling so their color combination matches the uploaded logo branding, including using a yellow background consistent with the logo’s yellow background, while preserving existing navigation links and Call/WhatsApp CTAs.",
+      "reqIds": [
+        "REQ-19"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-currently-used-site-logo-asset-with-the-newly-uploaded-logo-image-untitled-design-3-1-png-by-converting-it-into-the-exact-filename-referenced-by-the-app-assets-generated-indomills-logo-dim-512x256-png-ensuring-the-logo-renders-crisp-sharp-not-blurry-in-both-the-header-and-footer-while-keeping-all-other-website-content-layout-colors-routes-navigation-links-and-ctas-unchanged",
+      "title": "Replace the currently used site logo asset with the newly uploaded logo image (Untitled design (3)-1.png) by converting it into the exact filename referenced by the app (/assets/generated/indomills-logo.dim_512x256.png), ensuring the logo renders crisp/sharp (not blurry) in both the header and footer while keeping all other website content, layout, colors, routes, navigation links, and CTAs unchanged.",
+      "reqIds": [
+        "REQ-21"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-site-logo-displayed-in-the-header-and-footer-currently-loaded-from-assets-generated-indomills-logo-dim-512x256-png-with-the-newly-uploaded-logo-image-1000066378-removebg-preview-png-ensuring-it-renders-very-sharp-clear-and-has-a-clean-single-color-background-no-transparency-edge-artifacts-keep-all-other-website-content-layout-colors-routes-navigation-links-and-call-whatsapp-ctas-unchanged",
+      "title": "Replace the site logo displayed in the Header and Footer (currently loaded from /assets/generated/indomills-logo.dim_512x256.png) with the newly uploaded logo image (1000066378-removebg-preview.png), ensuring it renders very sharp/clear and has a clean single-color background (no transparency/edge artifacts). Keep all other website content, layout, colors, routes, navigation links, and Call/WhatsApp CTAs unchanged.",
+      "reqIds": [
+        "REQ-22"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create core marketing site pages: Home, About Us, Products & Categories, Who We Serve, How It Works, Why Choose Us, Contact Us",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Add prominent contact CTAs: phone number (8210088306) display plus Call Now and WhatsApp buttons across the site",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Implement product categories section with icons and product image sections (Fresh Vegetables, Fruits, Rice/Atta/Flour, Oils/Ghee, Pulses/Grains, Spices, Sauces/Condiments, Other bulk items)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Create Contact Us features: enquiry form (Name, Business Type, Product Requirement, Quantity, Contact Details), email (indomillsfood@gmail.com), WhatsApp enquiry option, and service area messaging (Bihar, expansion planned)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "SEO optimization: target specified keywords, SEO-friendly URLs, meta titles/descriptions, and enable Google indexing; suitable for Google Business Profile",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Design requirements: clean modern green/white theme, simple fonts/navigation, professional B2B layout, trust badges on Home",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Performance/responsiveness requirements: fast-loading and fully mobile-responsive",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Footer content: phone, email, service areas, and social media links",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Enhance branding and Home page visuals: use the provided logo in header/footer and add stronger Home page imagery (e.g., grocery godown/warehouse-style image plus additional supporting images) to make the Home page look more polished",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Place the provided logo properly in the site header and footer, and fix/improve the hamburger/drawer mobile navigation menu for a better look and usability",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Update header and footer styling to match the provided logo color combination, including using the same yellow background as in the logo",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-12",
+      "summary": "Update the site logo used in both the Header and Footer to use the newly uploaded logo image by converting it into the existing logo asset filename already referenced by the app (so no route/component logic changes are required).",
+      "reqIds": [
+        "REQ-20"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-13",
+      "summary": "Place the same uploaded logo with maximum clarity (sharp, not blurry) and ensure it has a clean single-color background behind it (no artifacts/transparency issues) in header/footer.",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Indomills",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

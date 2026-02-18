@@ -1,0 +1,36 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-18T07:04:32.540Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 1,
+    "implemented": 1,
+    "items": [
+      {
+        "id": "REQ-22",
+        "summary": "Replace the site logo displayed in the Header and Footer (currently loaded from /assets/generated/indomills-logo.dim_512x256.png) with the newly uploaded logo image (1000066378-removebg-preview.png), ensuring it renders very sharp/clear and has a clean single-color background (no transparency/edge artifacts). Keep all other website content, layout, colors, routes, navigation links, and Call/WhatsApp CTAs unchanged.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/public/assets/generated/indomills-logo.dim_512x256.png"
+        ],
+        "matchedFiles": [
+          "frontend/public/assets/generated/indomills-logo.dim_512x256.png"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "feature_evidence.json",
+    "frontend-implementation-plan.json",
+    "frontend/public/assets/generated/indomills-logo.dim_512x256.png",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}
